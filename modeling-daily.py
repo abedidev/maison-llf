@@ -22,7 +22,7 @@ torch.manual_seed(seed)
 np.random.seed(seed)
 
 # Define root directory
-root = '/home/ali/PycharmProjects/maison-modeling'
+root = '.'
 
 # Load dataset
 (samples, siss, ohss, okss, participants) = torch.load(os.path.join(root, 'samples-' + 'daily' + '.pt'))
