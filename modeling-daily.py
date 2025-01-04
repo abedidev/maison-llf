@@ -13,9 +13,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from catboost import CatBoostRegressor
+import torch
 
 # Set random seed for reproducibility
-import torch
 
 seed = 69
 torch.manual_seed(seed)
